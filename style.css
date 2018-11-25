@@ -340,6 +340,7 @@ footer{
 }
 footer a{
     padding: 1vh;
+    color: black;
 }
 footer label{
     color: #6c6c6c;
