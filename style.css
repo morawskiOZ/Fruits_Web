@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     text-decoration: none;
-    color:black
 }
 html {
     font-size: 62.5%;
@@ -16,6 +15,7 @@ body, html {
 body{
     overflow-x:hidden;
     font-family: 'Open Sans', sans-serif;
+    color:black
 }
 .parallax {
     background-image: url("./img/mix-owocow-w-koszyku.jpg");
@@ -74,7 +74,6 @@ a:last-child{
     margin: 3px 4px;
     transition: 0.4s;
 }
-
 .change .bar1 {
     transform: rotate(45deg) translate(-2px, 0px) scale(0.8);
     transform-origin: 0 0;
@@ -84,7 +83,7 @@ a:last-child{
 }
 .change .bar3 {
     transform: rotate(-45deg) translate(-6px, 0px) scale(0.8);
-    transform-origin: 0% 0%;
+    transform-origin: 0 0;
 }
 .sticky {
     position: fixed;
@@ -278,18 +277,15 @@ table {
 }
 td, th {
     border: 1px solid #000704;
-    /*padding: 0.5rem;*/
     text-align: left;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
 td:nth-child(3){
     white-space: nowrap;
-    /*padding-right: 3rem;*/
 }
 td:nth-child(2){
     white-space: nowrap;
-    /*padding-right: 3rem;*/
 }
 .fruitsColumns{
     display: flex;
