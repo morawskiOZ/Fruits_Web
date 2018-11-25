@@ -3,7 +3,7 @@
 ### Introduction
 Website created as a recruitment task from a pdf template.
 
-Simply go to:
+Simply go to: <https://morawskioz.github.io/Fruits_Web/>
 
 ### Stack
 * HTML5
