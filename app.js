@@ -3,7 +3,6 @@ const navBar = document.querySelector(".mainNav");
 const subNav = document.getElementById("subNavContent");
 const sticky = navBar.offsetTop;
 function stickTheNav() {
-    console.log("działa");
     if (window.pageYOffset > sticky) {
         navBar.classList.add("sticky");
         subNav.classList.add("sticky__subNav")
