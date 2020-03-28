@@ -1,4 +1,4 @@
-# Fruits_Web
+# Fruits_Web (Legacy project)
 
 ### Introduction
 Website created as a recruitment task from a pdf template.
